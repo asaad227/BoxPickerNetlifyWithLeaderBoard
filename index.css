@@ -15,6 +15,8 @@
 
 }
 
+
+
 .whiteMode{
   display: none;
 }
@@ -304,10 +306,10 @@ footer {
   to {color: black}
 }
 
-.easy, .medium, .hard, .play, .dataStore, .reload, .darkMode, .whiteMode, .darkMode1, .whiteMode1 {
+.easy:hover, .medium:hover, .hard:hover, .play:hover, .dataStore:hover, .reload:hover, .darkMode:hover, .whiteMode:hover, .darkMode1:hover, .whiteMode1:hover {
   color: black;
   animation-name: gameTitle;
-  animation-duration: 2s;
+  animation-duration: 0.7s;
   animation-iteration-count: infinite;
 }
 
